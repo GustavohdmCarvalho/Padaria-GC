@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado do processamento</title>
+    <title>Resultado do Processamento</title>
     <link rel="stylesheet" href="cad.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
             $sobrenome = $_GET["sobrenome"];
             $email = $_GET["email"];
 
-            echo "<p>É um prazer te conhecer, a GC PADARIA agradece $nome $sobrenome! Entraremos em contato com você! <p/>"
+            echo "<p>É um prazer te conhecer, a GC PADARIA agradece a você $nome $sobrenome! Entraremos em contato com você! <p/>";
         ?>
 
         <button class="text-js">
