@@ -6,8 +6,8 @@
     font-family: sans-serif;
 }
 
-/* Aqui colocamos estilização no corpo da página (Body) */
 
+/* Aqui colocamos estilização no corpo da página (Body) */
 body {
     width: 100%; /* Largura */
     height: 100vh; /* Tamanho */
@@ -73,9 +73,12 @@ form .input-single .input:valid ~ label {
 }
 
 .btn { /* Aqui estamos chamando nossa Class .btn para estilização */
-    width: 50%; /* Largura */
+    width: 100%; /* Largura */
     text-align: center; /* Alinhando o texto ao centro */
 }
+
+
+
 
 form input[type=submit] { /* Aqui estiliçamos nosso Botão de enviar */
     padding: 10px 40px; /* Preenchimento da altura e largura do botão */

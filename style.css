@@ -14,8 +14,7 @@ header {
     padding: 2%; /* Cuida do preenchimento */
     background-color: rgb(116, 77, 5); /* Cor do fundo do nosso Cabeçalho/Header */
     overflow: hidden;
-    line-height: 200px; /* Altura da linha */
-    max-height: 200px; /* Altura máxima */
+    
 }
 
 header > h1 { /* Selecionamos aqui a cor da letra do nosso H1 ou seja, do nosso titulo */
@@ -94,14 +93,14 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
 
 .img-div { /* Aqui chamamos nossa Class para alteração */
     background-image: url(imagens/img-div.jpg); /* usada para inserir imagens de fundo */
-    padding: 25px; /* Cuida do Preenchimento */
+    padding: 2%; /* Cuida do Preenchimento */
     background-position: center; /* Aqui posicionamos nossa imagen para o centro */
     background-size: auto; /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
 }
 
 main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     margin-top: 0px; /* indica o espaço acima do elemento / superior */
-    font-size: 36px; /* Tamanho da letra */
+    font-size: 35px; /* Tamanho da letra */
     text-align: center; /* Alinhando o texto para o centro */
     color: #000000; /* Cor da letra do nosso H2 */
 }
@@ -304,6 +303,14 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
         }
         #img-padaria {
             width: 100%;
+        }
+
+        main section h2 {
+            font-size: 2em;
+        }
+
+        .line{
+            width: 80%;
         }
     }
 
