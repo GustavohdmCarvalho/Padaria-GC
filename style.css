@@ -11,7 +11,7 @@ header {
     display: flex; /* Responsável por colocar os itens na mesma linha (lado a lado) */
     align-items: center; /* Alinhar os itens do nosso Header para o centro */
     justify-content: space-between; /* Tradução: justificar conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
-    padding: 15px; /* Cuida do preenchimento */
+    padding: 2%; /* Cuida do preenchimento */
     background-color: rgb(116, 77, 5); /* Cor do fundo do nosso Cabeçalho/Header */
     overflow: hidden;
     line-height: 200px; /* Altura da linha */
@@ -87,7 +87,7 @@ No entanto, uma class pode ser usada para identificar mais de um elemento HTML *
 
 #img-destaque { /*  */
     background-image: url(imagens/padaria.webp); /*  */
-    padding: 260px; /*  */
+    padding: 20%; /*  */
     background-position: center; /*  */
     background-size: cover; /*  */
 }
@@ -264,7 +264,7 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     margin-left: 10px; /* Espaçamento à esquerda */
  }
 
-    @media(max-widht:430px) {
+   @media(max-width:430px) {
 
         #menu-header {
             display: none;
@@ -282,6 +282,28 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
 
         #btn-header button a img {
             width: 30%;
+            height: auto;
+        }
+
+        header img {
+            width: 40px;
+            height: 40px;
+        }
+
+        header h1 {
+            font-size: 1em;
+        }
+
+        header {
+            padding: 5%;
+        }
+
+        #img-destaque {
+            max-width: 100%;  
+            height: auto;
+        }
+        #img-padaria {
+            width: 100%;
         }
     }
 
